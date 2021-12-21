@@ -5,9 +5,28 @@
 [![Xcode](https://img.shields.io/badge/Xcode-13-blue.svg?style=for-the-badge&logo=Xcode&logoColor=white)](https://developer.apple.com/xcode)
 [![MIT](https://img.shields.io/badge/license-MIT-black.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-## Router based on SwiftUI for iOS
+# Router based on SwiftUI for iOS
 
-### Screen Presentation Types:
+## Index
+* [Installation](#installation-)
+* [Screen Presentation Types](#screen-)
+* [How to use](#how-)
+* [License](#license-)
+<br>
+
+## Installation
+In Xcode add the dependency to your project via *File > Add Packages > Search or Enter Package URL* and use the following url:
+```
+https://github.com/Ze8c/Imperious.git
+```
+
+Once added, import the package in your code:
+```swift
+import SwiftUIRouter
+```
+<br>
+
+## Screen Presentation Types:
 
 #### 1 `single` - just current screen without stack (call this screen remove stack that was before)
 #### 2 `root` - make new stack with `NavigationView` (call this screen remove stack that was before)
@@ -16,6 +35,7 @@
 #### 5 `modal` - show modal screen
 
 <img src="https://github.com/Ze8c/Imperious/blob/main/images/stack.png">
+<br>
 
 ## How to use
 
@@ -103,3 +123,7 @@ Where needed can call screen, something like this:
 ```swift
 router.dispatch(.two)
 ```
+<br>
+
+## License
+[MIT License](LICENSE)
