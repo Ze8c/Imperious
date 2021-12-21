@@ -96,3 +96,8 @@ struct CommonProjectApp: App {
 ```
 
 ### 4 And after this simple steps your application ready to use routing
+Where needed can call screen, something like this:
+
+```swift
+router.dispatch(.two)
+```
