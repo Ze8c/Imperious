@@ -8,8 +8,8 @@
 # Router based on SwiftUI for iOS
 
 ## Index
-* [Installation](#installation-)
-* [Screen Presentation Types](#screen-)
+* [Installation](#installation)
+* [Screen Presentation Types](#screen-presentation-types)
 * [How to use](#how-)
 * [License](#license-)
 <br>
