@@ -43,8 +43,8 @@ struct ScrAssembly: AssemblyResolver {
     
     func resolve(endPoint: EndPoint) -> AnyView {
         switch endPoint {
-        case .one: return OneV().asAnyView
-        case .two: return TwoV().asAnyView
+        case .one: return oneView()
+        case .two: return twoView()
         }
     }
     
@@ -61,6 +61,14 @@ struct ScrAssembly: AssemblyResolver {
             name: "Two"
         ))
         }
+    }
+    
+    private func oneView() -> AnyView {
+        AnyView(OneV())
+    }
+    
+    private func twoView() -> AnyView {
+        AnyView(TwoV())
     }
 }
 ```
