@@ -23,7 +23,7 @@ https://github.com/Ze8c/Imperious.git
 
 Once added, import the package in your code:
 ```swift
-import SwiftUIRouter
+import Imperious
 ```
 <br>
 
