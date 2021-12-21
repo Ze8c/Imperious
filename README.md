@@ -10,8 +10,8 @@
 ## Index
 * [Installation](#installation)
 * [Screen Presentation Types](#screen-presentation-types)
-* [How to use](#how-)
-* [License](#license-)
+* [How to use](#how-to-use)
+* [License](#license)
 <br>
 
 ## Installation
